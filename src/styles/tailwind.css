@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #151515;
+    --global-bg-2: #18c7a7;
+    --global-bg-3: #18c7a726;
+    --global-bg-4: #1e1e1e;
+    --global-bg-5: #272727;
+    --global-bg-6: #282828;
+    --global-bg-7: #29c5ee;
+    --global-bg-8: #29c5ee26;
+    --global-bg-9: #cf192b;
+    --global-bg-10: #cf1a2c26;
+    --global-bg-11: #eab04d;
+    --global-bg-12: #ffffff19;
+    --global-bg-13: #00b85e;
+
+    /* Global Text Colors */
+    --global-text-1: #00b85e;
+    --global-text-2: #898989;
+    --global-text-3: #ffffff;
+    --global-text-4: #ffffff99;
+
+    /* Sidebar Colors */
+    --sidebar-bg-1: #00b85e;
+    --sidebar-text-1: #000000;
+
+    /* Table Colors */
+    --table-bg-1: #262626;
+  }
+}
+
+@layer utilities {
+  /* Global Background */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .bg-global-6 {
+    background-color: var(--global-bg-6);
+  }
+  .bg-global-7 {
+    background-color: var(--global-bg-7);
+  }
+  .bg-global-8 {
+    background-color: var(--global-bg-8);
+  }
+  .bg-global-9 {
+    background-color: var(--global-bg-9);
+  }
+  .bg-global-10 {
+    background-color: var(--global-bg-10);
+  }
+  .bg-global-11 {
+    background-color: var(--global-bg-11);
+  }
+  .bg-global-12 {
+    background-color: var(--global-bg-12);
+  }
+  .bg-global-13 {
+    background-color: var(--global-bg-13);
+  }
+
+  /* Global Text */
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+  .text-global-3 {
+    color: var(--global-text-3);
+  }
+  .text-global-4 {
+    color: var(--global-text-4);
+  }
+
+  /* Sidebar */
+  .bg-sidebar-1 {
+    background-color: var(--sidebar-bg-1);
+  }
+  .text-sidebar-1 {
+    color: var(--sidebar-text-1);
+  }
+
+  /* Table */
+  .bg-table-1 {
+    background-color: var(--table-bg-1);
+  }
+}
